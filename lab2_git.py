@@ -69,11 +69,7 @@ def get_factorial(value: int):
 
 
 def get_rand():
-    '''Returns a random integer.'''
-    """TODO: Add your code here 
-        Hint: Using random.randint() function.
-    """
-    my_randint = 0
+    my_randint = random.randint()
     return my_randint
 
 
